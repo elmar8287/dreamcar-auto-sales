@@ -2,7 +2,7 @@
 
 ## This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprintersa dn other VANs.
 
-## The [Demo Live]() version is available
+## The [Demo Live](http://dreamcarsales.com/) version is available
 
 ## Project status: on going
 
