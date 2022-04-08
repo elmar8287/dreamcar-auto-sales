@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
         </Container>
       </Navbar>
     </div>
-  )
-}
+  );
+};
 
 export default Header;

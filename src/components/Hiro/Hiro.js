@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Button, Container} from "react-bootstrap";
-import './Hiro.css'
+import "./Hiro.css";
 
 function Hiro () {
 
@@ -15,7 +15,7 @@ function Hiro () {
       <Button bsStyle="primary" size="lg">Get started</Button>
     </p>
   </Container>
-</div>)
+</div>);
 
 }
 
