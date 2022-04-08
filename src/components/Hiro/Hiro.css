@@ -1,0 +1,46 @@
+.hiro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.hiro::before {
+  content: ' ';
+  background-image: url('../../images/sprinter.jpeg');
+  position: absolute;
+  background-size: cover;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.hiro h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hiden-p {
+  display: none;
+}
+
+.apply-button {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hiro h1 {
+    font-size: 80px;
+  }
+
+  .hiden-p {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
