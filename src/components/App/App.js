@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "../Header/Header";
+import Hiro from "../Hiro/Hiro";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h2>Coming soon</h2>
+      <Header />
+      <Hiro />
     </div>
   );
 }
