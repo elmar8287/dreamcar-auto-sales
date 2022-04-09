@@ -7,7 +7,7 @@ const sprinter2 = require("./sprinter2.png");
 
 const Inventory = () => {
   return (
-    <div className="car-block">
+    <div className="car-block" id="cars">
       <h2 className="car-list-header">Latest updates</h2>
       <div className="car-list">
         <div className="card">
