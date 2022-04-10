@@ -1,6 +1,6 @@
 # Dreamcar Auto Sale - A used cars diller.
 
-## This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprintersa dn other VANs.
+## This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.
 
 ## The [Demo Live](https://dreamcarsautosales.com/) version is available
 
