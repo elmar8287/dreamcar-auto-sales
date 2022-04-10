@@ -12,7 +12,7 @@
   background-image: url('../../images/sprinter.jpeg');
   position: absolute;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.5;
   top: 0;
   left: 0;
   width: 100vw;
@@ -21,7 +21,7 @@
 }
 
 .hiro h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 800;
 }
 

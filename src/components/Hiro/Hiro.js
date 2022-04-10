@@ -12,7 +12,7 @@ function Hiro () {
       We are a used cars diller
     </p>
     <p className="apply-button">
-      <Button bsStyle="primary" size="lg">Get started</Button>
+      <Button bsStyle="primary" size="lg"><a href="#cars">Get started</a></Button>
     </p>
   </Container>
 </div>);
