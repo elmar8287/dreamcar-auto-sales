@@ -11,8 +11,12 @@ textarea {
   display: flex;
 }
 
+textarea {
+  height: 300px;
+}
+
 input[type=submit] {
-  background-color: #04aa6d;
+  background-color: rgb(47, 70, 218);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -46,7 +50,7 @@ input[type=submit]:hover {
   }
 
   input[type=submit] {
-    background-color: #31aa80;
+    background-color: rgb(47, 70, 218);
     color: white;
     padding: 12px 20px;
     border: none;
