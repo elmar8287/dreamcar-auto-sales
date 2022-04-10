@@ -27,17 +27,17 @@ const Footer = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              About
+            <a href="#about">About</a>
             </li>
             <li>
-              Cars
+            <a href="#cars">Cars</a>
             </li>
             <li>
-              Contact
+            <a href="#contact">Contact</a>
             </li>
           </ul>
           <h5 className="footer-copy-rights">&copy; 2022 Copyright: Dreamcarautosale</h5>
-          <p>by E.Abdulkarimov</p>
+          <a href="https://github.com/elmar8287" target="__blank">by Elmar Abdulkarimov</a>
         </div>
       </div>
     </div>

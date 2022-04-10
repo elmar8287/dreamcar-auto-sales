@@ -43,6 +43,11 @@
   border-radius: 5px;
 }
 
+.card-button:hover {
+  background-color: rgb(19, 44, 110);
+  color: yellow;
+}
+
 .card-button-sold {
   border: none;
   background-color: rgb(230, 177, 29);

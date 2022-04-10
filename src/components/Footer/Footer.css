@@ -68,7 +68,7 @@
     display: flex;
     width: 50%;
     border-right: solid rgb(83, 83, 83);
-    padding-right: 30px;
+    padding: 20px 30px 30px 50px;
   }
 
   .footer-links-list {
@@ -79,5 +79,9 @@
 
   .footer-copy-rights {
     color: rgb(25, 175, 235);
+  }
+
+  .footer-address {
+    padding-top: 20px;
   }
 }

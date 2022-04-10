@@ -39,7 +39,7 @@ const Inventory = () => {
               <li>Fuel: Diesel</li>
               <li>Odometer: 120000</li>
             </ul>
-              <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/ctd/d/kirkland-2014-mercedes-sprinter-2500/7463823261.html" target="_blank" rel="noreferrer">More detail</a></button>
+              <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/ctd/d/kirkland-2014-mercedes-sprinter-2500/7463823261.html" target="_blank" rel="noreferrer">Sold</a></button>
           </div>
         </div>
       </div>
