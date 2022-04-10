@@ -13,7 +13,7 @@ const Header = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#cars">Cars</Nav.Link>
-            <Nav.Link href="#pricing">Contact </Nav.Link>
+            <Nav.Link href="#contact">Contact </Nav.Link>
           </Nav>
         </Navbar.Collapse>
         
