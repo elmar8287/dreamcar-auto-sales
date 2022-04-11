@@ -1,63 +1,41 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inventory.css";
+import Car from "../Car/Car";
 
 const sprinter = require("./ll.png");
-// const sprinter2 = require("./sprinter2.png");
+const sprinter2 = require("./sprinter2.png");
 
-const Inventory = ({ name, price, year, condition, cylinders, transmission, fuel, odometer, link }) => {
+const Inventory = () => {
   return (
     <div className="car-block" id="cars">
       <h2 className="car-list-header">Latest updates</h2>
       <div className="car-list">
-        <div className="card">
-          <img src={sprinter} />
-          <div className="car-container">
-            <h4>{name}</h4>
-            <p className="price">{price}</p>
-            <ul>
-              <li>Year: {year}</li>
-              <li>Condition: {condition}</li>
-              <li>Cylinders: {cylinders}</li>
-              <li>Transmission: {transmission}</li>
-              <li>Fuel: {fuel}</li>
-              <li>Odometer: {odometer}</li>
-            </ul>
-            <button type='button' className="card-button"><a href={link} target="_blank" rel="noreferrer">More detail</a></button>
-          </div>
-        </div>
-        {/* <div className="card">
-          <img src={sprinter2} />
-          <div className="car-container">
-            <h4>Mercedes Sprinter 2014</h4>
-            <p className="price">25.995$</p>
-            <ul>
-              <li>Year: 2014</li>
-              <li>Condition: Good</li>
-              <li>Cylinders: 6 cylinders</li>
-              <li>Transmission: Automatic</li>
-              <li>Fuel: Diesel</li>
-              <li>Odometer: 120000</li>
-            </ul>
-              <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/ctd/d/kirkland-2014-mercedes-sprinter-2500/7463823261.html" target="_blank" rel="noreferrer">Sold</a></button>
-          </div>
-        </div> */}
+        <Car 
+          image={sprinter}
+          name="Winnebago view sprinter"
+          price="49.995$" year="2008"
+          condition="Like new"
+          cylinders="6 cylinders"
+          transmission="Atomatic"
+          fuel="Diesel" odometer="109000"
+          link="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html"
+        />
+        <Car 
+          image={sprinter2}
+          name="Mercedes Sprinter 2014"
+          price="25.995$"
+          year="2014"
+          condition="Good"
+          cylinders="6 cylinders"
+          transmission="Atomatic"
+          fuel="Diesel"
+          odometer="120000"
+          link="https://seattle.craigslist.org/see/ctd/d/kirkland-2014-mercedes-sprinter-2500/7463823261.html"
+        />
       </div>
     </div>
   );
 };
 
 export default Inventory;
-
-Inventory.propTypes = {
-  name: PropTypes.string,
-  price: PropTypes.string,
-  year: PropTypes.string,
-  condition: PropTypes.string,
-  cylinders: PropTypes.string,
-  transmission: PropTypes.string,
-  fuel: PropTypes.string,
-  odometer: PropTypes.string,
-  link: PropTypes.string
-};
