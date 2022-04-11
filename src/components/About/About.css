@@ -1,0 +1,13 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px 10px 30px 10px;
+  background-color: rgb(245, 245, 245);
+}
+
+.about h2 {
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 30px;
+}

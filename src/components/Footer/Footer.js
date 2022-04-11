@@ -37,7 +37,7 @@ const Footer = () => {
             </li>
           </ul>
           <h5 className="footer-copy-rights">&copy; 2022 Copyright: Dreamcarautosale</h5>
-          <a href="https://github.com/elmar8287" target="__blank">by Elmar Abdulkarimov</a>
+          <a href="https://github.com/elmar8287" target="__blank" className="elmar-link">by Elmar Abdulkarimov</a>
         </div>
       </div>
     </div>

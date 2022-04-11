@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import Hiro from "../Hiro/Hiro";
+import About from "../About/About";
 import Inventory from "../Inventory/Inventory";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
@@ -11,6 +12,7 @@ function App() {
     <div className="App" id="home">
       <Header />
       <Hiro />
+      <About />
       <Inventory />
       <Contact />
       <Footer />
