@@ -1,11 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inventory.css";
 
 const sprinter = require("./ll.png");
-const sprinter2 = require("./sprinter2.png");
+// const sprinter2 = require("./sprinter2.png");
 
-const Inventory = () => {
+const Inventory = ({ name, price, year, condition, cylinders, transmission, fuel, odometer, link }) => {
   return (
     <div className="car-block" id="cars">
       <h2 className="car-list-header">Latest updates</h2>
@@ -13,20 +14,20 @@ const Inventory = () => {
         <div className="card">
           <img src={sprinter} />
           <div className="car-container">
-            <h4>Winnebago view sprinter</h4>
-            <p className="price">49.995$</p>
+            <h4>{name}</h4>
+            <p className="price">{price}</p>
             <ul>
-              <li>Year: 2008</li>
-              <li>Condition: Like new</li>
-              <li>Cylinders: 6 cylinders</li>
-              <li>Transmission: Automatic</li>
-              <li>Fuel: Diesel</li>
-              <li>Odometer: 109000</li>
+              <li>Year: {year}</li>
+              <li>Condition: {condition}</li>
+              <li>Cylinders: {cylinders}</li>
+              <li>Transmission: {transmission}</li>
+              <li>Fuel: {fuel}</li>
+              <li>Odometer: {odometer}</li>
             </ul>
-            <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html" target="_blank" rel="noreferrer">More detail</a></button>
+            <button type='button' className="card-button"><a href={link} target="_blank" rel="noreferrer">More detail</a></button>
           </div>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <img src={sprinter2} />
           <div className="car-container">
             <h4>Mercedes Sprinter 2014</h4>
@@ -41,10 +42,22 @@ const Inventory = () => {
             </ul>
               <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/ctd/d/kirkland-2014-mercedes-sprinter-2500/7463823261.html" target="_blank" rel="noreferrer">Sold</a></button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
 };
 
 export default Inventory;
+
+Inventory.propTypes = {
+  name: PropTypes.string,
+  price: PropTypes.string,
+  year: PropTypes.string,
+  condition: PropTypes.string,
+  cylinders: PropTypes.string,
+  transmission: PropTypes.string,
+  fuel: PropTypes.string,
+  odometer: PropTypes.string,
+  link: PropTypes.string
+};

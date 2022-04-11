@@ -34,6 +34,7 @@
 
 .footer-address {
   list-style-type: circle;
+  list-style: none;
 }
 
 .footer-icons {
@@ -86,6 +87,11 @@
   }
 
   .footer-address {
+    list-style: none;
     padding-top: 20px;
+  }
+
+  .footer-address li {
+    padding: 5px;
   }
 }
