@@ -13,7 +13,15 @@ function App() {
       <Header />
       <Hiro />
       <About />
-      <Inventory name="Winnebago view sprinter" price="49.995$" year="2008" condition="Like new" cylinders="6 cylinders" transmission="Atomatic" fuel="Diesel" odometer="109000" link="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html"/>
+      <Inventory 
+        name="Winnebago view sprinter"
+        price="49.995$" year="2008"
+        condition="Like new"
+        cylinders="6 cylinders"
+        transmission="Atomatic"
+        fuel="Diesel" odometer="109000"
+        link="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html"
+      />
       <Contact />
       <Footer />
     </div>
