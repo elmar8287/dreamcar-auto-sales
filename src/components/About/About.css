@@ -11,3 +11,21 @@
   font-size: 50px;
   padding-bottom: 30px;
 }
+
+.about p {
+  padding: 0 5% 0 5% ;
+}
+
+.about-href {
+  color: black;
+  margin: 4px;
+  background-color: rgb(206, 206, 206);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .about p {
+    padding: 0 20% 0 20% ;
+  }
+}
