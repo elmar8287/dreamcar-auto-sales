@@ -13,7 +13,7 @@
 }
 
 .about p {
-  padding: 0 5% 0 5% ;
+  padding: 0 5% 0 5%;
 }
 
 .about-href {
@@ -26,6 +26,6 @@
 
 @media screen and (min-width: 768px) {
   .about p {
-    padding: 0 20% 0 20% ;
+    padding: 0 20% 0 20%;
   }
 }
