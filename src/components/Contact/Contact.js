@@ -10,11 +10,11 @@ function Contact() {
   const inputHandle = (e) => {
     e.preventDefault();
     setValue(e.target.value);
-  }
-  const [submited, setSubmited] = useState(false)
+  };
+  const [submited, setSubmited] = useState(false);
   const submitedHandle = () => {
-    setSubmited(true)
-  }
+    setSubmited(true);
+  };
   return (
   <div className="contact-form" id="contact">
     <h2>Leave your message</h2>
@@ -33,7 +33,7 @@ function Contact() {
       }
     </form>
   </div>
-  )
-};
+  );
+}
 
 export default Contact;
