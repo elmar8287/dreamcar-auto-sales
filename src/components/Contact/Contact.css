@@ -48,8 +48,7 @@ input[type=submit]:hover {
   background-color: rgb(127, 230, 127);
   margin: 10px;
   padding: 5px;
-  align-items: center;
-  align-content: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,6 +72,13 @@ input[type=submit]:hover {
     background-color: #f5f3f3;
     padding: 40px 30% 40px 30%;
     text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  .sent-message {
+    background-color: rgb(127, 230, 127);
+    margin: 10px;
+    padding: 5px;
     align-items: center;
     align-content: center;
   }

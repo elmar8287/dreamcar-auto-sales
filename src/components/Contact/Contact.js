@@ -26,7 +26,7 @@ function Contact() {
       {
         submited ? 
         <div className="sent-message">
-          Message succefully sent
+          Message successfully sent
         </div>
         :
         null
