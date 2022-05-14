@@ -1,4 +1,4 @@
-import { createStore } from 'react-redux';
+import { createStore } from "react-redux";
 
 import { nameHandle, emailHandle, messageHandle } from "../redux/actions";
 import reducer from "../redux/reducer";
