@@ -3,22 +3,22 @@ import "./Contact.css";
 
 function Contact() {
   const getData = () => {
-    const storageData = localStorage.getItem("formData")
+    const storageData = localStorage.getItem("formData");
     if (!storageData) {
       return {
         name: "",
         email: "",
         message: "",
-      }
+      };
     } else {
-      return JSON.parse(storageData)
+      return JSON.parse(storageData);
     }
-  }
+  };
   const [value, setValue] = useState(getData);
 
   useEffect(()=> {
-    localStorage.setItem("formData", JSON.stringify(value))
-  },[value])
+    localStorage.setItem("formData", JSON.stringify(value));
+  },[value]);
   
   const nameHandle = (e) => {
     setValue({...value, name: e.target.value});
