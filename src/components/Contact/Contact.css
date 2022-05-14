@@ -75,6 +75,7 @@ input[type=submit]:hover {
     align-items: center;
     align-content: center;
   }
+
   .sent-message {
     background-color: rgb(127, 230, 127);
     margin: 10px;
