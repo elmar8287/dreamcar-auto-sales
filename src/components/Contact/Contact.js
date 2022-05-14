@@ -1,26 +1,24 @@
 import React, { useEffect, useState } from "react";
-import {data} from "../../utils/localStorage";
 import "./Contact.css";
 
 function Contact() {
-  // Get data from localStorage with condition of empty storage
   const getData = () => {
-    const storeData = localStorage.getItem("data");
-    if (!storeData) {
+    const storageData = localStorage.getItem("formData")
+    if (!storageData) {
       return {
         name: "",
         email: "",
         message: "",
-      };
+      }
     } else {
-      return JSON.parse(storeData);
+      return JSON.parse(storageData)
     }
-  };
-  // Setup state and monitor any updates of it.
+  }
   const [value, setValue] = useState(getData);
-  useEffect(()=>{
-    data(value);
-  },[value]);
+
+  useEffect(()=> {
+    localStorage.setItem("formData", JSON.stringify(value))
+  },[value])
   
   const nameHandle = (e) => {
     setValue({...value, name: e.target.value});

@@ -23,7 +23,7 @@ const Inventory = () => {
               <li>Fuel: Diesel</li>
               <li>Odometer: 109000</li>
             </ul>
-            <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html" target="_blank" rel="noreferrer">More detail</a></button>
+            <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html" target="_blank" rel="noreferrer">Sold</a></button>
           </div>
         </div>
         <div className="card">
