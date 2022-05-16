@@ -1,14 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inventory.css";
+import { useSelector } from "react-redux";
 
 const sprinter = require("./ll.png");
 const sprinter2 = require("./sprinter2.png");
 
 const Inventory = () => {
+  const carNumber = useSelector((state)=>state);
   return (
     <div className="car-block" id="cars">
-      <h2 className="car-list-header">Latest updates</h2>
+      <h2 className="car-list-header">Latest updates ({carNumber} cars)</h2>
       <div className="car-list">
         <div className="card">
           <img src={sprinter} />
@@ -23,7 +25,7 @@ const Inventory = () => {
               <li>Fuel: Diesel</li>
               <li>Odometer: 109000</li>
             </ul>
-            <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html" target="_blank" rel="noreferrer">More detail</a></button>
+            <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7462993491.html" target="_blank" rel="noreferrer">Sold</a></button>
           </div>
         </div>
         <div className="card">
