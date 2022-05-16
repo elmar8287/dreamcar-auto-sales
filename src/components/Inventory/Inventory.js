@@ -1,14 +1,17 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inventory.css";
+import { useSelector, useDispatch } from "react-redux";
 
 const sprinter = require("./ll.png");
 const sprinter2 = require("./sprinter2.png");
 
 const Inventory = () => {
+  const carNumber = useSelector((state)=>state);
+  const dispatch = useDispatch();
   return (
     <div className="car-block" id="cars">
-      <h2 className="car-list-header">Latest updates</h2>
+      <h2 className="car-list-header">Latest updates ({carNumber} cars)</h2>
       <div className="car-list">
         <div className="card">
           <img src={sprinter} />
