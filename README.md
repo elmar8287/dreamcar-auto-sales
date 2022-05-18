@@ -4,6 +4,16 @@
 
 ### In this project I used React JS with hooks:
 - useState()
+- useEffect()
+- useSelector()
+- useDispatch()
+
+## Interesting features impelemented:
+- Created the contact form by using useState() hook to handle all inputs
+- Used useEffect() hook to monitor any changes in inputs and save in localStore
+- Used canditional rendering, when the form is submitted (display success message)
+- Implemented Redux for React
+- Used useSelector() and useDispatch() hooks for working with Redux
 
 ![screenshot](./public/assets/dreamcarsautosales.png)
 
@@ -19,10 +29,10 @@
 
 ### Run project on local machine
 
-- git clone https://github.com/elmar8287/dreamcar-auto-sales.git
-- cd dreamcar-auto-sales
-- npm i
-- npm start
+- copy and run this command to your terminal `git clone https://github.com/elmar8287/dreamcar-auto-sales.git`
+- switch to right directory by `cd dreamcar-auto-sales`
+- instal npm by running this command `npm i`
+- start the project by running this command `npm start`
 
 ## Author
 
