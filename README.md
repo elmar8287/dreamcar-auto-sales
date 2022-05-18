@@ -2,6 +2,11 @@
 
 ## This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.
 
+### In this project I used React JS with hooks:
+- useState()
+
+![screenshot](./public/assets/dreamcarsautosales.png)
+
 ## The [Demo Live](https://dreamcarsautosales.com/) version is available
 
 ## Project status: on going
@@ -11,6 +16,13 @@
 - React JS
 - React Bootstrap
 - Netlify
+
+### Run project on local machine
+
+- git clone https://github.com/elmar8287/dreamcar-auto-sales.git
+- cd dreamcar-auto-sales
+- npm i
+- npm start
 
 ## Author
 
