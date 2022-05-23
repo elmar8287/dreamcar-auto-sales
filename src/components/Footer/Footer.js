@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-rights">
           <h4>Dreamcar Auto Sales</h4>
           <ul className="footer-address">
-            <li>Address: WA 98033, 672 7th ave Kirkland</li>
+            <li>Address: 672 7th ave Kirkland WA 98033</li>
             <li>Phone: 425-219-8585</li>
             <li>E-mail: dreamcarautosales@hotmail.com</li>
           </ul>
