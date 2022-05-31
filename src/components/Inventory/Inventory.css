@@ -39,6 +39,14 @@
   padding: 20px 20px 0 20px;
 }
 
+.sold {
+  border: none;
+  background-color: rgb(225, 146, 0);
+  color: white;
+  height: 50px;
+  border-radius: 5px;
+}
+
 .card-button {
   border: none;
   background-color: rgb(47, 70, 218);
