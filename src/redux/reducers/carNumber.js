@@ -1,4 +1,4 @@
-const cars = ["mercedes", "ford"];
+const cars = ["mercedes", "ford","mercedes", "ford","ford"];
 
 const carNumber = (state=cars.length, action) => {
   switch(action.type) {
