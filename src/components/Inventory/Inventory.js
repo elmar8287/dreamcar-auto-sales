@@ -4,7 +4,6 @@ import "./Inventory.css";
 import { useSelector } from "react-redux";
 
 const sprinter = require("./ll.png");
-const sprinter2 = require("./sprinter2.png");
 const sprinter3 = require("./sprinter3.png");
 const sprinter4 = require("./sprinter4.png");
 const sprinter5 = require("./sprinter5.png");
