@@ -8,6 +8,7 @@ const sprinter2 = require("./sprinter2.png");
 const sprinter3 = require("./sprinter3.png");
 const sprinter4 = require("./sprinter4.png");
 const sprinter5 = require("./sprinter5.png");
+const sprinter6 = require("./sprinter6.png");
 
 const Inventory = () => {
   const carNumber = useSelector((state)=>state);
@@ -81,6 +82,22 @@ const Inventory = () => {
         </div>
       </div>
       <div className="car-list">
+        <div className="card">
+          <img src={sprinter6} />
+          <div className="car-container">
+            <h4>Mercedes Sprinter Conversion Camper RV 2015</h4>
+            <p className="price">59.995$</p>
+            <ul>
+              <li>Year: 2015</li>
+              <li>Condition: Like new</li>
+              <li>Cylinders: 6 cylinders</li>
+              <li>Transmission: Automatic</li>
+              <li>Fuel: Diesel</li>
+              <li>Odometer: 78000</li>
+            </ul>
+              <button type='button' className="card-button"><a href="https://seattle.craigslist.org/see/ctd/d/kirkland-2015-mercedes-sprinter/7502514374.html" target="_blank" rel="noreferrer">Detail</a></button>
+          </div>
+        </div>
         <div className="card">
           <img src={sprinter2} />
           <div className="car-container">
