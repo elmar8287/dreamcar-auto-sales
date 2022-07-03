@@ -2,6 +2,7 @@ const cars = [
   {
     id: 1,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r_600x450.jpg",
+    status: true,
     model: "Mercedes",
     price: 666,
     year: 2010,
@@ -15,7 +16,8 @@ const cars = [
   { 
     id: 2,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
-    model: "Dodge",
+    status: true,
+    model: "Mercedes",
     price: 999,
     year: 2020,
     condition: "Good",
@@ -28,6 +30,7 @@ const cars = [
   { 
     id: 3,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
     model: "Dodge",
     price: 999,
     year: 2020,
@@ -41,6 +44,7 @@ const cars = [
   { 
     id: 4,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
     model: "Dodge",
     price: 999,
     year: 2020,
@@ -54,6 +58,7 @@ const cars = [
   { 
     id: 5,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
     model: "Dodge",
     price: 999,
     year: 2020,
@@ -67,6 +72,7 @@ const cars = [
   { 
     id: 6,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
     model: "Dodge",
     price: 999,
     year: 2020,
@@ -80,6 +86,49 @@ const cars = [
   { 
     id: 7,
     img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
+    model: "Dodge",
+    price: 999,
+    year: 2020,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 9999,
+    link: "#"
+  },
+  { 
+    id: 8,
+    img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
+    model: "Dodge",
+    price: 999,
+    year: 2020,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 9999,
+    link: "#"
+  },
+  { 
+    id: 9,
+    img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
+    model: "Dodge",
+    price: 999,
+    year: 2020,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 9999,
+    link: "#"
+  },
+  { 
+    id: 10,
+    img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r.jpg",
+    status: true,
     model: "Dodge",
     price: 999,
     year: 2020,
@@ -90,6 +139,7 @@ const cars = [
     odometer: 9999,
     link: "#"
   }
+
 ];
 
 const carsList = (state=cars) => {

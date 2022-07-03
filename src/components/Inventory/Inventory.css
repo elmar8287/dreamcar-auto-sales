@@ -1,3 +1,17 @@
+.show-more-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.show-more {
+  border: none;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+}
+
 .car-list-header {
   text-align: center;
   font-size: 30px;
@@ -116,15 +130,9 @@ a:hover {
     box-shadow: 5px 5px 25px 20px rgba(0, 0, 0, 0.2);
   }
 
-  .car-list {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-  }
-
   .car-block {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
     padding: 20px;
   }
@@ -165,5 +173,10 @@ a:hover {
 
   a:hover {
     color: yellow;
+  }
+
+  .main-block {
+    display: flex;
+    flex-direction: column;
   }
 }
