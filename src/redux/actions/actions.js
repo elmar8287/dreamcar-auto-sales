@@ -1,1 +1,1 @@
-export const carNumberHandle = () => ({type: "Count the cars number"});
+// export const carNumberHandle = () => ({type: "Count the cars number"});

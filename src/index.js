@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import App from "./components/App/App";
 import { Provider } from "react-redux";
 import { legacy_createStore } from "redux";
-import carNumber from "./redux/reducers/carNumber";
+import carsList from "./redux/reducers/cars";
 
-const store = legacy_createStore(carNumber);
+const store = legacy_createStore(carsList);
 
 ReactDOM.render(
   <React.StrictMode>
