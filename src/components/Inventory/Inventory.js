@@ -15,7 +15,9 @@ const Inventory = () => {
 
   return (
     <div className="main-block" id="cars">
+      <span className="cars-number">Later updates ({carsList.length} cars)</span>
       <div className="car-block">
+
         {
           carsList.map(car=>(
             <div className="card" key={car.id}>
