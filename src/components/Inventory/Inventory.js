@@ -1,4 +1,4 @@
-/*eslint semi: ["error", "always"]*/
+/* eslint-disable */
 
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
