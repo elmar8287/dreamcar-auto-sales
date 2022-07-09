@@ -143,7 +143,7 @@ const cars = [
 ];
 
 const carsList = (state=cars) => {
-  return state.sort((a,b)=> b.id-a.id)
-}
+  return state.sort((a,b)=> b.id-a.id);
+};
 
 export default carsList;
