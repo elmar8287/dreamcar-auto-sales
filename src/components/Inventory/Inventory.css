@@ -3,6 +3,12 @@
   padding: 20px;
 }
 
+.cars-number {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
 .show-more {
   border: none;
   background-color: rgb(35, 35, 35);
