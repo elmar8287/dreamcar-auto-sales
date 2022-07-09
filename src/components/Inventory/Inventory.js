@@ -1,3 +1,5 @@
+/*eslint semi: ["error", "always"]*/
+
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Inventory.css";
