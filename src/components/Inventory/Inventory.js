@@ -10,9 +10,16 @@ const Inventory = () => {
     e.preventDefault();
     setMore(more+8)
   }
+  const checkList = () => {
+    if(more.length===carsList.length) {
+      true
+    } else {
+      false
+    }
+  }
   return (
-    <div className="main-block">
-      <div className="car-block" id="cars">
+    <div className="main-block" id="cars">
+      <div className="car-block">
         {
           carsList.map(car=>(
             <div className="card" key={car.id}>
@@ -35,7 +42,9 @@ const Inventory = () => {
         }
       </div>
       <div className="show-more-section">
-        <button onClick={showMore} className="show-more">Show more cars</button>
+        <button onClick={showMore} className="show-more">
+        Show more cars
+        </button>
       </div>
     </div>
   )}
