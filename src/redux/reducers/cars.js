@@ -124,6 +124,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 114000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7506143812.html"
+  },
+  { 
+    id: 10,
+    img: "https://images.craigslist.org/00R0R_9VpO28dgWiGz_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter Diesel Cargo Van",
+    price: 45000,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 43000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7508568822.html"
   }
 ];
 
