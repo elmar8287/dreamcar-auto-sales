@@ -138,6 +138,48 @@ const cars = [
     fuel: "Diesel",
     odometer: 43000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7508568822.html"
+  },
+  { 
+    id: 11,
+    img: "https://vanlifetrader.com/wp-content/uploads/2022/07/754A4A5C-E861-4D66-98D6-C712675F90A3.jpeg",
+    status: true,
+    model: "Mercedes Sprinter 2WD",
+    price: 55000,
+    year: 2015,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 78000,
+    link: "https://vanlifetrader.com/listing/2015-mercedes-sprinter-2wd-2/"
+  },
+  { 
+    id: 12,
+    img: "https://images.craigslist.org/01414_5pZn12p9m0pz_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "Thor citation Mercedes sprinter diesel class C",
+    price: 79995,
+    year: 2016,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 59000,
+    link: "https://seattle.craigslist.org/see/rvd/d/kirkland-2016-thor-citation-mercedes/7510791953.html"
+  },
+  { 
+    id: 13,
+    img: "https://images.craigslist.org/00I0I_acYbLmb5RACz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Winnebago view sprinter diesel class C RV",
+    price: 42500,
+    year: 2008,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 109000,
+    link: "https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7512657951.html"
   }
 ];
 
