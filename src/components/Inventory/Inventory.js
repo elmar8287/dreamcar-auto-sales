@@ -10,7 +10,7 @@ const Inventory = () => {
   const [more, setMore] = useState(4);
   const showMore = (e) => {
     e.preventDefault();
-    setMore(more+8);
+    setMore(more+4);
   };
 
   return (
