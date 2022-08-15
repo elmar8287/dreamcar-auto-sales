@@ -180,6 +180,34 @@ const cars = [
     fuel: "Diesel",
     odometer: 109000,
     link: "https://seattle.craigslist.org/see/rvd/d/kirkland-2008-winnebago-view-sprinter/7512657951.html"
+  },
+    { 
+    id: 14,
+    img: "https://images.craigslist.org/00r0r_waNHfjjnycz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter diesel box truck ",
+    price: 25900,
+    year: 2013,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 100000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2013-mercedes-sprinter-diesel/7520306680.html"
+  },
+    { 
+    id: 15,
+    img: "https://images.craigslist.org/00d0d_cev5XLdcW3lz_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "Winnebago View 23H sprinter class C RV ",
+    price: 49995,
+    year: 2007,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 43000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2007-winnebago-view-23h/7520790405.html"
   }
 ];
 
