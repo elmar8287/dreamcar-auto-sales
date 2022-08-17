@@ -199,7 +199,7 @@ const cars = [
     id: 15,
     img: "https://images.craigslist.org/00d0d_cev5XLdcW3lz_0kE0fs_1200x900.jpg",
     status: true,
-    model: "Winnebago View 23H sprinter class C RV ",
+    model: "Winnebago View 23H sprinter class C RV",
     price: 49995,
     year: 2007,
     condition: "Excellent",
@@ -208,6 +208,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 43000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2007-winnebago-view-23h/7520790405.html"
+  },
+      { 
+    id: 16,
+    img: "https://images.craigslist.org/01010_l45aGu3MGeuz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter cargo van",
+    price: 34500,
+    year: 2019,
+    condition: "Excellent",
+    cylinders: 4,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 85000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-cargo/7522140260.html"
   }
 ];
 
