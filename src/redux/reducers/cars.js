@@ -222,6 +222,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 85000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-cargo/7522140260.html"
+  },
+  { 
+    id: 17,
+    img: "https://images.craigslist.org/00m0m_6vm1SO3n8FTz_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "Mercedes Spinter FR RV low miles",
+    price: 24900,
+    year: 2004,
+    condition: "Good",
+    cylinders: 5,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 47000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2004-mercedes-spinter-fr-rv/7526435038.html"
   }
 ];
 
