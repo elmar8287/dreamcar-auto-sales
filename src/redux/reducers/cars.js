@@ -236,6 +236,48 @@ const cars = [
     fuel: "Diesel",
     odometer: 47000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2004-mercedes-spinter-fr-rv/7526435038.html"
+  },
+  { 
+    id: 18,
+    img: "https://images.craigslist.org/00000_fdfWichkehQz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel cargo van",
+    price: 29995,
+    year: 2018,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 83000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7532067904.html"
+  },
+  { 
+    id: 19,
+    img: "https://images.craigslist.org/01414_c2bw5xNLsMvz_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "VW Winnebago rialta excellent condition",
+    price: 29995 ,
+    year: 2002,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 88000,
+    link: "https://seattle.craigslist.org/see/rvd/d/kirkland-2002-vw-winnebago-rialta/7527697795.html"
+  },
+  { 
+    id: 20,
+    img: "https://images.craigslist.org/01010_l45aGu3MGeuz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter cargo van",
+    price: 34500,
+    year: 2019,
+    condition: "Excellent",
+    cylinders: 4,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 85000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-cargo/7522140260.html"
   }
 ];
 
