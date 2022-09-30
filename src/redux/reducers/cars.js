@@ -278,6 +278,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 85000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-cargo/7522140260.html"
+  },
+  { 
+    id: 21,
+    img: "https://images.craigslist.org/00f0f_jYFYSnpU9T1z_0kE0fs_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter diesel box truck lift gate",
+    price: 27995,
+    year: 2015,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 144000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2015-mercedes-sprinter-diesel/7539622959.html"
   }
 ];
 
