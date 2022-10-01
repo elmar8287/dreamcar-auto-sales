@@ -320,6 +320,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 97000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7540379858.html"
+  },
+  { 
+    id: 24,
+    img: "https://vanlifetrader.com/wp-content/uploads/2022/09/FB6EBADF-2C74-4FD2-9A62-19E2F3414AC7-scaled.jpeg",
+    status: true,
+    model: "Mercedes Sprinter professionally converted",
+    price: 89995,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 34000,
+    link: "https://vanlifetrader.com/listing/2018-mercedes-sprinter-professionally-converted/"
   }
 ];
 
