@@ -71,7 +71,7 @@ const cars = [
   },
   { 
     id: 6,
-    img: "https://images.craigslist.org/01313_1iFHCh7cd4Yz_09p07r_1200x900.jpg",
+    img: "",
     status: true,
     model: "Mercedes Sprinter Cargo VAN",
     price: 24995,
@@ -141,7 +141,7 @@ const cars = [
   },
   { 
     id: 11,
-    img: "https://vanlifetrader.com/wp-content/uploads/2022/07/754A4A5C-E861-4D66-98D6-C712675F90A3.jpeg",
+    img: "",
     status: true,
     model: "Mercedes Sprinter 2WD",
     price: 55000,
@@ -169,7 +169,7 @@ const cars = [
   },
   { 
     id: 13,
-    img: "https://images.craigslist.org/00I0I_acYbLmb5RACz_0CI0t2_1200x900.jpg",
+    img: "",
     status: true,
     model: "Winnebago view sprinter diesel class C RV",
     price: 42500,
@@ -183,7 +183,7 @@ const cars = [
   },
     { 
     id: 14,
-    img: "https://images.craigslist.org/00r0r_waNHfjjnycz_0CI0t2_1200x900.jpg",
+    img: "",
     status: true,
     model: "Mercedes Sprinter diesel box truck ",
     price: 25900,
@@ -211,7 +211,7 @@ const cars = [
   },
       { 
     id: 16,
-    img: "https://images.craigslist.org/01010_l45aGu3MGeuz_0CI0t2_1200x900.jpg",
+    img: "",
     status: true,
     model: "Mercedes Sprinter cargo van",
     price: 34500,
@@ -253,7 +253,7 @@ const cars = [
   },
   { 
     id: 19,
-    img: "https://images.craigslist.org/01414_c2bw5xNLsMvz_0kE0fs_1200x900.jpg",
+    img: "",
     status: true,
     model: "VW Winnebago rialta excellent condition",
     price: 29995 ,
@@ -267,7 +267,7 @@ const cars = [
   },
   { 
     id: 20,
-    img: "https://images.craigslist.org/01010_l45aGu3MGeuz_0CI0t2_1200x900.jpg",
+    img: "",
     status: true,
     model: "Mercedes Sprinter cargo van",
     price: 34500,
