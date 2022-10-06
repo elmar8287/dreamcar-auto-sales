@@ -334,6 +334,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 34000,
     link: "https://vanlifetrader.com/listing/2018-mercedes-sprinter-professionally-converted/"
+  },
+  { 
+    id: 25,
+    img: "https://images.craigslist.org/00w0w_8TuCUU3OzGQz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel cargo van",
+    price: 32000,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 85000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7542287453.html"
   }
 ];
 
