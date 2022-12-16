@@ -348,6 +348,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 85000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7542287453.html"
+  },
+  { 
+    id: 26,
+    img: "https://images.craigslist.org/00000_dTFJ2bTLqRYz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter camper van",
+    price: 59995,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 8119,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-camper/7568746290.html"
   }
 ];
 
