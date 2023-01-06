@@ -404,6 +404,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 23000,
     link: "https://seattle.craigslist.org/est/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7572453980.html"
+  },
+  { 
+    id: 30,
+    img: "https://images.craigslist.org/00Q0Q_9uWSfxZL8tQz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Airstream Westfalia Camper sprinter",
+    price: 69995,
+    year: 2005,
+    condition: "Excellent",
+    cylinders: 5,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 82200,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2005-airstream-westfalia/7575447512.html"
   }
 ];
 
