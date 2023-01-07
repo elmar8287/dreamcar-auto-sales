@@ -7,7 +7,7 @@ function Hiro () {
 
   return (<div className="hiro">
   <Container className="hiro-content">
-    <h1>Dreamcar Auto Sale</h1>
+    <h1>Dreamcar Auto Sales</h1>
   </Container>
 </div>);
 
