@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Button, Container} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import "./Hiro.css";
 
 function Hiro () {
