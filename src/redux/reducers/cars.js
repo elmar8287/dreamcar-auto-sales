@@ -418,6 +418,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 82200,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2005-airstream-westfalia/7575447512.html"
+  },
+  { 
+    id: 31,
+    img: "https://images.craigslist.org/00m0m_bFSxogANTAWz_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter low miles",
+    price: 36995,
+    year: 2018,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 54899,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-low/7575754629.html"
   }
 ];
 
