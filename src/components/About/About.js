@@ -9,7 +9,7 @@ const About = () => {
         <p>Here at Dreamcar, we specialized in diesel cargo vans.
           We carefully select them for you!
           Every van goes through extensive mechanical preparations and service at our partner
-          <a className="about-href" href="https://www.google.com/maps/place/Sprinter+Repair+and+Parts/@47.7709884,-122.148323,15z/data=!4m5!3m4!1s0x0:0x1c1692d52afa4704!8m2!3d47.7709884!4d-122.148323?hl=ru">
+          <a className="about-href" href="https://www.google.com/maps/place/Sprinter+Repair+and+Parts/@47.7709884,-122.148323,15z/data=!4m5!3m4!1s0x0:0x1c1692d52afa4704!8m2!3d47.7709884!4d-122.148323?hl=en">
             Sprinter dedicated shop.
           </a>
           We also partner with RIDGEVANS for quality custom camper builds.
