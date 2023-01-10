@@ -4,6 +4,7 @@ import Hiro from "../Hiro/Hiro";
 import About from "../About/About";
 import Inventory from "../Inventory/Inventory";
 import Contact from "../Contact/Contact";
+import Partners from "../Partners/Partners";
 import Footer from "../Footer/Footer";
 import "./App.css";
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Inventory />
       <Contact />
+      <Partners />
       <Footer />
     </div>
   );
