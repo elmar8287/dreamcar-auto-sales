@@ -446,6 +446,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 54000,
     link: "https://seattle.craigslist.org/est/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7577597722.html"
+  },
+  { 
+    id: 33,
+    img: "https://images.craigslist.org/00n0n_37DMNyUZxQX_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel box truck",
+    price: 45000,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 12000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7577962116.html"
   }
 ];
 
