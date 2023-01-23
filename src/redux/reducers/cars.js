@@ -460,7 +460,24 @@ const cars = [
     fuel: "Diesel",
     odometer: 12000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7577962116.html"
+  },
+  { 
+    id: 34,
+    img: "https://images.craigslist.org/00E0E_iXl8nBmb8JQ_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel van high roof",
+    price: 34995,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 62000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7581524650.html"
   }
+  
+  
+  
 ];
 
 const carsList = (state=cars) => {
