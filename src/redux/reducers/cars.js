@@ -432,6 +432,34 @@ const cars = [
     fuel: "Diesel",
     odometer: 54899,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-low/7575754629.html"
+  },
+  { 
+    id: 32,
+    img: "https://images.craigslist.org/00707_jv0KWviuCec_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel cargo van",
+    price: 37996,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 83000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7586815529.html"
+  },
+  { 
+    id: 33,
+    img: "https://images.craigslist.org/00505_bU567Ki6mrS_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Dodge/Mercedes sprinter passenger diesel van low miles",
+    price: 25000,
+    year: 2006,
+    condition: "Like new",
+    cylinders: 5,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 71890,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2006-dodge-mercedes-sprinter/7586813760.html"
   }
 ];
 
