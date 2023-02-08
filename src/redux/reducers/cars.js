@@ -439,6 +439,10 @@ const cars = [
     status: true,
     model: "Mercedes sprinter diesel cargo van",
     price: 37996,
+    img: "https://images.craigslist.org/00s0s_2ZcVwTNExC4_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel cargo van",
+    price: 43500,
     year: 2019,
     condition: "Like new",
     cylinders: 6,
@@ -460,6 +464,34 @@ const cars = [
     fuel: "Diesel",
     odometer: 71890,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2006-dodge-mercedes-sprinter/7586813760.html"
+  },
+  { 
+    id: 34,
+    img: "https://images.craigslist.org/00n0n_37DMNyUZxQX_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel box truck",
+    price: 45000,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 12000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7577962116.html"
+  },
+  { 
+    id: 35,
+    img: "https://images.craigslist.org/00E0E_iXl8nBmb8JQ_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel van high roof",
+    price: 34995,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 62000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7581524650.html"
   }
 ];
 
