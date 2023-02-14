@@ -1,37 +1,45 @@
-.about {
-  display: flex;
-  flex-direction: column;
+.about-text {
   text-align: center;
   padding: 80px 10px 30px 10px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(0, 0, 0);
+  margin-right: 10%;
+  color: aliceblue;
+}
+
+.about {
+  background-color: rgb(0, 0, 0);
+  margin-left: 20%;
+  text-align: center;
+  padding: 35px;
+  color: aliceblue;
 }
 
 .about h2 {
   font-weight: 700;
   font-size: 50px;
-  padding-bottom: 30px;
 }
 
 .about p {
-  border: solid rgb(227, 227, 227);
-  border-radius: 5px;
   margin: 0 5% 0 5%;
   padding: 5px;
 }
 
 .about-href {
   color: black;
-  margin: 4px;
-  background-color: rgb(206, 206, 206);
-  padding: 4px;
+  margin: 2px;
+  background-color: rgb(150, 150, 150);
+  padding: 2px;
   border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
-  .about p {
-    border: solid rgb(227, 227, 227);
-    padding: 10px;
-    margin: 0 20% 0 20%;
-    border-radius: 5px;
+  .about-text p {
+    padding: 5px;
+    margin: 0 10% 0 10%;
+  }
+  .about-main {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
   }
 }
