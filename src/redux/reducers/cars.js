@@ -491,7 +491,7 @@ const cars = [
   },
   { 
     id: 36,
-    img: "https://images.craigslist.org/00Z0Z_7Ru0ymwVNvt_0bf09u_1200x900.jpg",
+    img: "https://images.craigslist.org/00d0d_kJ3biTDHBZF_0ff0bn_1200x900.jpg",
     status: true,
     model: "Mercedes Sprinter diesel box truck",
     price: 27995,
