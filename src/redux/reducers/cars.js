@@ -488,6 +488,20 @@ const cars = [
     fuel: "Diesel",
     odometer: 62000,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-diesel/7581524650.html"
+  },
+  { 
+    id: 36,
+    img: "https://images.craigslist.org/00Z0Z_7Ru0ymwVNvt_0bf09u_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter diesel box truck",
+    price: 27995,
+    year: 2012,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 92750,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2012-mercedes-sprinter-diesel/7592727880.html"
   }
 ];
 
