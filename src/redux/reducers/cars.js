@@ -502,9 +502,22 @@ const cars = [
     fuel: "Diesel",
     odometer: 92750,
     link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2012-mercedes-sprinter-diesel/7592727880.html"
+  },
+  { 
+    id: 37,
+    img: "https://images.craigslist.org/00q0q_5HE5GsLANeT_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel box truck",
+    price: 26995,
+    year: 2015,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 148000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2015-mercedes-sprinter-diesel/7594852534.html"
   }
 ];
-
 
 const carsList = (state=cars) => {
   return state.sort((a,b)=> b.id-a.id);
