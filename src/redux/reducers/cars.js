@@ -1,4 +1,46 @@
 const cars = [
+   { 
+    id: 41,
+    img: "https://images.craigslist.org/00O0O_fSnsXhNBWX2_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel van",
+    price: 39900,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 55505,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-mercedes-sprinter-diesel/7597940816.html"
+  },
+  { 
+    id: 40,
+    img: "https://images.craigslist.org/00w0w_4rg3930JyrS_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Jeep Cherokee trailhawk elite fully loaded",
+    price: 23000,
+    year: 2019,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Gas",
+    odometer: 71880,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2019-jeep-cherokee-trailhawk/7596585297.html"
+  },
+  { 
+    id: 39,
+    img: "https://images.craigslist.org/00s0s_2CzY1gw6vQl_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter 2500 diesel van",
+    price: 29995,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 95000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2018-mercedes-sprinter-2500/7597924586.html"
+  },
   {
     id: 1,
     img: "https://vanlifetrader.com/wp-content/uploads/listing-uploads/gallery/2022/04/0B4FC072-AA3C-4062-A8B5-B892CF4C24DE-scaled.jpeg",
