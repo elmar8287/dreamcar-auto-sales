@@ -1,5 +1,32 @@
 const cars = [
    { 
+    id: 43,
+    img: "https://images.craigslist.org/00g0g_6e2AHEdirYJ_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter class C RV motor home thor",
+    price: 45000,
+    condition: "Like new",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 100000,
+    link: "https://seattle.craigslist.org/est/rvd/d/kirkland-2009-mercedes-sprinter-class/7602285081.html"
+   },
+   { 
+    id: 42,
+    img: "https://images.craigslist.org/00J0J_kk5NrSdcmol_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes Sprinter 2500 170 WB long & tall diesel van",
+    price: 44995,
+    year: 2019,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 66000,
+    link: "https://seattle.craigslist.org/est/ctd/d/kirkland-2019-mercedes-sprinter-wb-long/7602236084.html"
+  },
+  { 
     id: 41,
     img: "https://images.craigslist.org/00O0O_fSnsXhNBWX2_0CI0t2_1200x900.jpg",
     status: true,
