@@ -1,4 +1,18 @@
 const cars = [
+   
+   { 
+    id: 44,
+    img: "https://images.craigslist.org/00Y0Y_7lor9e5HxCj_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel van / 2007 freightliner",
+    price: 15500,
+    condition: "Good",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 265000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2007-freightliner-mercedes/7604485468.html"
+   },
    { 
     id: 43,
     img: "https://images.craigslist.org/00g0g_6e2AHEdirYJ_0CI0t2_1200x900.jpg",
