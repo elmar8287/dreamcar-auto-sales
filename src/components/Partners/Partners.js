@@ -31,7 +31,7 @@ const Partners = () => {
       {
         partners.map(car => (
             <article className="w-full mt-4 shadow-lg md:mx-7 border rounded-md duration-300 hover:shadow-sm" key={car.img}>
-                <a href={car.link} target="_blank">
+                <a href={car.link} rel="noreferrer" target="_blank">
                     <img src={car.img} loading="lazy" alt={car.title}  className="w-full h-48 rounded-t-md" alt={car.title} />
                     
                     <div className="pt-3 ml-4 mr-2 mb-3">

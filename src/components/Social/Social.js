@@ -1,4 +1,4 @@
-export default () => {
+const Social = () => {
     return (
         <section className="cta-sec relative max-w-screen-xl mx-auto py-4 px-4 md:px-8">
             <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div>
@@ -39,5 +39,7 @@ export default () => {
                 }
             `}</style>
         </section>
-    )
-}
+    );
+};
+
+export default Social;
