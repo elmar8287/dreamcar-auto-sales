@@ -40,16 +40,15 @@ const Hiro = () => {
                     <p className="mt-2 mb-4 text-gray-600 text-md">
                     Here at Dreamcar, we specialized in diesel cargo vans.
                     We carefully select them for you! Every van goes through extensive
-                    mechanical preparations and service at our partnerSprinter dedicated shop. 
-                    We also partner with RIDGEVANS for quality custom camper builds.
-                    So we may fulfill all your sprinter needs from purchase to service and camper build!
-                    Give us a call now!
+                    mechanical preparations and service at our partner <a href="https://www.google.com/maps/place/Sprinter+Specialist/@47.8277583,-122.1944767,9z/data=!4m6!3m5!1s0x54900f69509d0985:0x1c1692d52afa4704!8m2!3d47.7709948!4d-122.1483373!16s%2Fg%2F11h035l1q1" target="_blank" className="font-bold text-indigo-600">Sprinter dedicated shop</a>. 
+                    We also partner with <a href="https://ridgevans.com/" target="_blank" className="font-bold text-indigo-600">RIDGEVANS</a> for quality custom camper builds.
+                    So we may fulfill all your sprinter needs from purchase to service and camper build! Give us a call now!
                       </p>
                       <a href="#cars">
                       <button
                           className="px-5 py-3 text-white duration-150 bg-indigo-600 rounded-full hover:bg-indigo-500 active:bg-indigo-700"
                       >
-                          View the list of cars
+                          View the car list
                       </button>
                       </a>
                     </div>

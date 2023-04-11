@@ -19,12 +19,12 @@ export default () => {
                     We keep the car list updated, so we are fresh!
                 </p>
             </div>
-            <div className="mt-12 grid gap-2 sm:grid-cols-4 lg:grid-cols-4">
+            <div className="mt-12 grid grid-cols-2 gap-2 sm:grid-cols-4">
                 {
                     carsList.map(car => (
-                        <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={car.id}>
+                        <article className="w-full mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={car.id}>
                             <a href={car.link}>
-                                <img src={car.img} loading="lazy" alt={car.model}  className="w-full h-48 rounded-t-md" onError={(e)=>{e.target.onerror = null; e.target.src="https://img.freepik.com/free-vector/sold-out-price-tag-sign_123447-162.jpg"}} alt={car.model} />
+                                <img src={car.img} loading="lazy" alt={car.model}  className="w-full h-38 md:h-56 rounded-t-md" onError={(e)=>{e.target.onerror = null; e.target.src="https://img.freepik.com/free-vector/sold-out-price-tag-sign_123447-162.jpg"}} alt={car.model} />
                                 
                                 <div className="pt-3 ml-4 mr-2 mb-3">
                                     <h3 className="text-md text-gray-900">
