@@ -1,9 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-export default () => {
+const Navbar = () => {
 
-  const [state, setState] = useState(false)
-  const navRef = useRef()
+  const [state, setState] = useState(false);
+  const navRef = useRef();
 
   // Replace javascript:void(0) path with your path
   const navigation = [
@@ -11,25 +11,25 @@ export default () => {
       { title: "Cars", path: "#cars" },
       { title: "Reviews", path: "#reviews" },
       { title: "Partners", path: "#partners" }
-  ]
+  ];
 
   useEffect(() => {
       
-      const body = document.body
+      const body = document.body;
 
       // Disable scrolling
-      const customBodyStyle = ["overflow-hidden", "lg:overflow-visible"]
-      if (state) body.classList.add(...customBodyStyle)
+      const customBodyStyle = ["overflow-hidden", "lg:overflow-visible"];
+      if (state) body.classList.add(...customBodyStyle);
       // Enable scrolling
-      else body.classList.remove(...customBodyStyle)
+      else body.classList.remove(...customBodyStyle);
 
       // Sticky strick
-      const customStyle = ["sticky-nav", "fixed", "border-b"]
+      const customStyle = ["sticky-nav", "fixed", "border-b"];
       window.onscroll = () => {
-          if (window.scrollY > 80) navRef.current.classList.add(...customStyle)
-          else navRef.current.classList.remove(...customStyle)
-      }
-    }, [state])
+          if (window.scrollY > 80) navRef.current.classList.add(...customStyle);
+          else navRef.current.classList.remove(...customStyle);
+      };
+    }, [state]);
     
 
   return (
@@ -62,7 +62,7 @@ export default () => {
                       </button>
                   </div>
               </div>
-              <div className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:pb-0 lg:pr-0 lg:h-auto ${ state ? 'h-screen pb-20 overflow-auto pr-4' : 'hidden'}`}>
+              <div className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:pb-0 lg:pr-0 lg:h-auto ${ state ? "h-screen pb-20 overflow-auto pr-4" : "hidden"}`}>
                     <div>
                         <ul className="flex flex-col-reverse space-x-0 lg:space-x-6 lg:flex-row items-center">
                         
@@ -85,7 +85,7 @@ export default () => {
                                                 { item.title }
                                             </a>
                                         </li>
-                                    )
+                                    );
                                 })
                             }
                         </ul>
@@ -93,5 +93,7 @@ export default () => {
               </div>
           </div>
       </nav>
-  )
-}
+  );
+};
+
+export default Navbar;

@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import React, { useState } from "react";
 
-export default () => {
+const Car = () => {
     const carsList = useSelector((state)=>state);
     const [more, setMore] = useState(4);
     const showMore = (e) => {
@@ -24,7 +24,7 @@ export default () => {
                     carsList.map(car => (
                         <article className="w-full mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={car.id}>
                             <a href={car.link}>
-                                <img src={car.img} loading="lazy" alt={car.model}  className="w-full h-38 md:h-56 rounded-t-md" onError={(e)=>{e.target.onerror = null; e.target.src="https://img.freepik.com/free-vector/sold-out-price-tag-sign_123447-162.jpg"}} alt={car.model} />
+                                <img src={car.img} loading="lazy" alt={car.model}  className="w-full h-38 md:h-56 rounded-t-md" onError={(e)=>{e.target.onerror = null; e.target.src="https://img.freepik.com/free-vector/sold-out-price-tag-sign_123447-162.jpg";}}/>
                                 
                                 <div className="pt-3 ml-4 mr-2 mb-3">
                                     <h3 className="text-md text-gray-900">
@@ -53,5 +53,7 @@ export default () => {
                       </button>
                 </div>
         </section>
-    )
-}
+    );
+};
+
+export default Car;
