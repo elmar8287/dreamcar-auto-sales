@@ -36,7 +36,7 @@ const Reviews = () => {
                                 <li key={idx} className="bg-gray-50 p-4 rounded-xl">
                                     <figure>
                                         <div className="flex items-center gap-x-4">
-                                            <img src={item.avatar} className="w-16 h-16 rounded-full" />
+                                            <img src={item.avatar} className="w-16 h-16 rounded-full" alt="google-reviews-avatar" />
                                             <div>
                                                 <span className="block text-gray-800 font-semibold">{item.name}</span>
                                                 <div className="flex items-center">
