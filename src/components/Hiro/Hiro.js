@@ -26,7 +26,7 @@ const Hiro = () => {
             </div>
           </div>
         </div>
-        <div className="pb-40 bg-gray-100 -mt-24">
+        <div className="pb-40 bg-gray-100 md:-mt-24 -mt-40">
           <div className="container px-4">
             <div className="flex flex-wrap h-65 mb-8">
               <div className="w-full text-center">
