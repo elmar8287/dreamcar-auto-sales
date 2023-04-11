@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div className="about" id="about">
-        <h2>About us</h2>
+        <h2 className="">About us</h2>
         <p>Here at Dreamcar, we specialized in diesel cargo vans.
           We carefully select them for you!
           Every van goes through extensive mechanical preparations and service at our partner

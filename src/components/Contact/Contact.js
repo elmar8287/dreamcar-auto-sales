@@ -40,7 +40,7 @@ function Contact() {
       <input type="text" name="name" placeholder="Your name.." required value={value.name} onChange={nameHandle}/>
       <input type="email" name="email" placeholder="Your mail address.." required value={value.email} onChange={emailHandle}/>
       <textarea name="message" placeholder="Your message.." required value={value.message} onChange={messageHandle}/>
-      <input type="submit" value="Send"/>
+      <input type="submit" value="Send" className="mt-4"/>
       {
         submited ? 
         <div className="sent-message">
