@@ -14,10 +14,18 @@ const Footer = () => {
             <li>E-mail: dreamcarautosales@hotmail.com</li>
           </ul>
           <ul className="footer-icons">
-            <li><FaFacebook /></li>
-            <li><FaInstagram /></li>
-            <li><FaTwitter /></li>
-            <li><FaWhatsapp /></li>
+            <li>
+              <FaFacebook />
+            </li>
+            <li>
+              <FaInstagram />
+            </li>
+            <li>
+              <FaTwitter />
+            </li>
+            <li>
+              <FaWhatsapp />
+            </li>
           </ul>
         </div>
         <div className="footer-links">
@@ -27,17 +35,25 @@ const Footer = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-            <a href="#about">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-            <a href="#cars">Cars</a>
+              <a href="#cars">Cars</a>
             </li>
             <li>
-            <a href="#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
-          <h5 className="footer-copy-rights">&copy; 2022 Copyright: Dreamcarautosale</h5>
-          <a href="https://github.com/elmar8287" target="__blank" className="elmar-link">by Elmar Abdulkarimov</a>
+          <h5 className="footer-copy-rights">
+            &copy; 2022 Copyright: Dreamcarautosale
+          </h5>
+          <a
+            href="https://github.com/elmar8287"
+            target="__blank"
+            className="elmar-link"
+          >
+            by Elmar Abdulkarimov
+          </a>
         </div>
       </div>
     </div>
