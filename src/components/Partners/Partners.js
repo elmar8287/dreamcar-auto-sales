@@ -38,7 +38,7 @@ const Partners = () => {
                         <h3 className="text-lg text-gray-900 font-bold">
                             {car.title}
                         </h3>
-                        <p className="text-sm text-indigo-900">{car.desc}$</p>
+                        <p className="text-sm text-indigo-900">{car.desc}</p>
                     </div>
                 </a>
             </article>
