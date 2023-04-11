@@ -36,7 +36,7 @@ const Navbar = () => {
       <nav ref={navRef} className="bg-white w-full top-0 z-20">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:px-8 lg:flex">
               <div className="flex items-center justify-between py-3 lg:py-4 lg:block">
-                    <a href="javascript:void(0)">
+                    <a href="https://dreamcarsautosales.com/">
                         <img
                             src="https://user-images.githubusercontent.com/49064106/230986195-ef027e78-437a-4d1a-8c50-4c774238a9f5.png" 
                             width={120} 
