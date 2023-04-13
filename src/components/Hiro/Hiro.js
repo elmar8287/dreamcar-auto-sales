@@ -27,7 +27,7 @@ const Hiro = () => {
                   Dreamcar <span className="text-sky-500">Auto Sales</span>
                 </h1>
                 <p className="mt-4 text-[18px] text-gray-300">
-                  Don’t Only Dream it, Just Drive It
+                  Sprinter Vans The Right Way!
                 </p>
               </div>
             </div>
