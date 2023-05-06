@@ -1,5 +1,19 @@
 const cars = [
   {
+    id: 47,
+    img: "https://images.craigslist.org/01414_bqARwY9pnYh_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes sprinter diesel box truck",
+    price: 24995,
+    year: 2015,
+    condition: "Excellent",
+    cylinders: 4,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 16800,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2015-mercedes-sprinter-diesel/7617770590.html",
+  },
+  {
     id: 46,
     img: "https://images.craigslist.org/00v0v_7iuH47aJ14k_0CI0t2_1200x900.jpg",
     status: true,
