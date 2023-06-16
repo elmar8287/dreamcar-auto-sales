@@ -1,5 +1,19 @@
 const cars = [
   {
+    id: 48,
+    img: "https://images.craigslist.org/01111_hRO6q6h6kFk_0CI0t2_1200x900.jpg",
+    status: true,
+    model: "Mercedes / Dodge Sprinter diesel cargo van",
+    price: 11995,
+    year: 2004,
+    condition: "Excellent",
+    cylinders: 5,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 260000,
+    link: "https://seattle.craigslist.org/see/ctd/d/kirkland-2004-mercedes-dodge-sprinter/7631547247.html",
+  },
+  {
     id: 47,
     img: "https://images.craigslist.org/01414_bqARwY9pnYh_0CI0t2_1200x900.jpg",
     status: true,
