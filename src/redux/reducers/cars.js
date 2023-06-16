@@ -17,7 +17,7 @@ const cars = [
     id: 51,
     img: "https://images.craigslist.org/00R0R_kIfk96NVoqN_0CI0t2_1200x900.jpg",
     status: true,
-    model: "Mercedes Sprinter diesel cargo van with cooler box",
+    model: "Mercedes Sprinter camper",
     price: 89995,
     year: 2021,
     condition: "Like new",
