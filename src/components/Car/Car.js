@@ -43,9 +43,9 @@ const Car = () => {
                     {car.price}$
                   </p>
                   <p className="text-gray-400 text-sm mt-1">Year: {car.year}</p>
-                  <p className="text-gray-400 text-sm mt-1">
+                  {/* <p className="text-gray-400 text-sm mt-1">
                     Condition: {car.condition}
-                  </p>
+                  </p> */}
                   <p className="text-gray-400 text-sm mt-1">
                     Cylinders: {car.cylinders} cylinders
                   </p>
@@ -53,7 +53,7 @@ const Car = () => {
                     Transmission: {car.transmission}
                   </p>
                   <p className="text-gray-400 text-sm mt-1">Fuel: {car.fuel}</p>
-                  <p className="text-gray-400 text-sm mt-1">
+                  <p className="text-indigo-900 font-bold text-sm mt-1">
                     Odometer: {car.odometer}
                   </p>
                 </div>

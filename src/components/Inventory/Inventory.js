@@ -36,7 +36,7 @@ const Inventory = () => {
                 <p className="price">{car.price}$</p>
                 <ul>
                   <li>Year: {car.year}</li>
-                  <li>Condition: {car.condition}</li>
+                  {/* <li>Condition: {car.condition}</li> */}
                   <li>Cylinders: {car.cylinders} cylinders</li>
                   <li>Transmission: {car.transmission}</li>
                   <li>Fuel: {car.fuel}</li>
