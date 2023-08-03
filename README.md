@@ -1,17 +1,18 @@
-# Dreamcar Auto Sale - A used cars diller
+# Dreamcar Auto Sale - A used cars Diller
 
-## This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.
+## This is an inventory displaying website for USA customers, which is a diller for Mercedes Sprinters and other VANs.
 
 ### In this project I used React JS with hooks:
 - `useState()`
 - `useEffect()`
 - `useSelector()`
 - `useDispatch()`
+- 
 
-## Interesting features impelemented:
+## Interesting features implemented:
 - Created the contact form by using `useState()` hook to handle all inputs
 - Used `useEffect()` hook to monitor any changes in inputs and save in `localStore`
-- Used canditional rendering, when the form is submitted (display success message)
+- Used conditional rendering, when the form is submitted (display success message)
 - Implemented `Redux` for React
 - Used `useSelector()` and `useDispatch()` hooks for working with Redux
 
