@@ -1,6 +1,20 @@
 const cars = [
   {
     id: 64,
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365252017_10232223862604286_6776627163653439289_n.jpg?stp=dst-jpg_p720x720&_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=ZhaX3scq_bUAX8Oeeuk&_nc_ht=scontent-dfw5-1.xx&oh=00_AfBgzcjrsDsAwWAbMb8LBDm43vHqCAv3iIY93TdL4ry8xQ&oe=64D1526D",
+    status: true,
+    model: "Mercedes-Benz sprinter 2500 cargo 144wb high roof",
+    price: 34300,
+    year: 2019,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 91000,
+    link: "https://www.facebook.com/marketplace/item/676009667778609/?mibextid=6ojiHh",
+  },
+  {
+    id: 64,
     img: "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/361641830_10232098032938623_1993041035772549754_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=843cd7&_nc_ohc=WmRi1Us7-bgAX91XUJJ&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAC08MI72Nvy--n1gpKMqMGgxDRPVjvNSTLZC_O_pVw9A&oe=64CDC26E",
     status: true,
     model: "Coachmen prism sprinter",
