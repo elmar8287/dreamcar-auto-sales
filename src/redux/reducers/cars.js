@@ -1,6 +1,20 @@
 const cars = [
   {
-    id: 64,
+    id: 66,
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=qU0s59ygphwAX_GnKMn&_nc_ht=scontent-dfw5-1.xx&oh=00_AfAQ8Ms1WYQTvI6mwPLT36C4sTmsV3ekLJNmuihIDVuUDw&oe=64D002B8",
+    status: true,
+    model: "Ford transit cab & chassis 14.5 box truck",
+    price: 29995,
+    year: 2018,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 106000,
+    link: "https://www.facebook.com/marketplace/item/311608667940170/?mibextid=6ojiHh",
+  },
+  {
+    id: 65,
     img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365252017_10232223862604286_6776627163653439289_n.jpg?stp=dst-jpg_p720x720&_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=ZhaX3scq_bUAX8Oeeuk&_nc_ht=scontent-dfw5-1.xx&oh=00_AfBgzcjrsDsAwWAbMb8LBDm43vHqCAv3iIY93TdL4ry8xQ&oe=64D1526D",
     status: true,
     model: "Mercedes-Benz sprinter 2500 cargo 144wb high roof",
