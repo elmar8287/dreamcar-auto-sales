@@ -1,7 +1,7 @@
 const cars = [
   {
     id: 66,
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=qU0s59ygphwAX_GnKMn&_nc_ht=scontent-dfw5-1.xx&oh=00_AfAQ8Ms1WYQTvI6mwPLT36C4sTmsV3ekLJNmuihIDVuUDw&oe=64D002B8",
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=Uo-Eyl9jT4gAX_SLCki&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDGeI_UB2dRCEEIfz6RTS_DpTYaCFVXF_sduXUQskKsXg&oe=64D7EBB8",
     status: true,
     model: "Ford transit cab & chassis 14.5 box truck",
     price: 29995,
