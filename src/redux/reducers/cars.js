@@ -1,7 +1,7 @@
 const cars = [
   {
     id: 68,
-    img: "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/366818842_10232286198922655_7151300853938293561_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=9fda53&_nc_ohc=wjpdtjSrwkEAX_PXpDZ&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAsgcfcnL7f-8-AS0dZzdWXcL6xu1_6CqvyMcY5qLi1TA&oe=64DB57B0",
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=9fda53&_nc_ohc=fYFc8xAUa94AX9vR5oe&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDU6EeKQ6prWWYxEP4VasHa_yI7fRWwP6gxGnyf0u3ALQ&oe=64DDDA78",
     status: true,
     model: "Mercedes-Benz westfalia sprinter",
     price: 63000,
@@ -29,7 +29,7 @@ const cars = [
   },
   {
     id: 66,
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=Uo-Eyl9jT4gAX_SLCki&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDGeI_UB2dRCEEIfz6RTS_DpTYaCFVXF_sduXUQskKsXg&oe=64D7EBB8",
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=9fda53&_nc_ohc=fYFc8xAUa94AX9vR5oe&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDU6EeKQ6prWWYxEP4VasHa_yI7fRWwP6gxGnyf0u3ALQ&oe=64DDDA78",
     status: true,
     model: "Ford transit cab & chassis 14.5 box truck",
     price: 29995,
