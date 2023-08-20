@@ -1,7 +1,7 @@
 const cars = [
   {
     id: 68,
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/365186182_10232223726800891_7280415292771091138_n.jpg?stp=dst-jpg_p720x720&_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=9fda53&_nc_ohc=fYFc8xAUa94AX9vR5oe&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDU6EeKQ6prWWYxEP4VasHa_yI7fRWwP6gxGnyf0u3ALQ&oe=64DDDA78",
+    img: "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/366818842_10232286198922655_7151300853938293561_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=3b2858&_nc_ohc=fAaN5D8ol7cAX8rQ8RD&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAB_5R0E1e17VvA4-R37RQYQtrujXuzu3C_Jwem89Fq3A&oe=64E73530",
     status: true,
     model: "Mercedes-Benz westfalia sprinter",
     price: 63000,
