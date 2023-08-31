@@ -1,7 +1,7 @@
 const cars = [
   {
     id: 70,
-    img: "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/368368220_10232355529655880_7348240297467044413_n.jpg?stp=dst-jpg_p720x720&_nc_cat=106&ccb=1-7&_nc_sid=3b2858&_nc_ohc=S7RmofaeaUcAX-kLX0N&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAQRqRA5SHOouH5cL0_kumpo4J68vnJOafVEMcytosP1A&oe=64EA4366",
+    img: "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/368368220_10232355529655880_7348240297467044413_n.jpg?stp=dst-jpg_p720x720&_nc_cat=106&ccb=1-7&_nc_sid=44e04b&_nc_ohc=_lhGaEZcA1MAX8bejfR&_nc_ht=scontent-fra5-2.xx&oh=00_AfCybniPhTP6HzhlNfW9hgqf28d4fXLPW8OhPQwyQeAKTA&oe=64F620E6",
     status: true,
     model: "Mercedes-Benz sprinter 3500 cargo Standard w/170 WB Van 3D",
     price: 26995,
