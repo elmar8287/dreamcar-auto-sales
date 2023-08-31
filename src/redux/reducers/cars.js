@@ -113,11 +113,7 @@ const cars = [
   },
   {
     id: 62,
-<<<<<<< HEAD
     img: "https://github.com/elmar8287/dreamcar-auto-sales/assets/49064106/0e043b18-1ce4-48f9-ba56-fe6f1da12812",
-=======
-    img: "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/361612041_10232090513310637_8910095960916588730_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=843cd7&_nc_ohc=X_5l2P1pznsAX80rID3&_nc_ht=scontent-dfw5-2.xx&oh=00_AfCxWOLdMcKJtIV665jErYXtcR8hN918VoO4wRQOCl6GfQ&oe=64D80536",
->>>>>>> efe10ca3eb1e73dc9524a581ae12d5486491e2e9
     status: true,
     model: "Mercedes-Benz sprinter 2500 cargo",
     price: 37000,
@@ -145,11 +141,7 @@ const cars = [
   },
   {
     id: 60,
-<<<<<<< HEAD
     img: "https://github.com/elmar8287/dreamcar-auto-sales/assets/49064106/fb919f35-6401-4ac0-a106-7f70d722adbf",
-=======
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/358416805_10232009462644421_5673522440351115889_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=jD38A-4FvdUAX9POkXk&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDIK1_sSQb3q6eOw2tDk2NXQJT6stN_bUEpYh_TuSUnTw&oe=64D888F0",
->>>>>>> efe10ca3eb1e73dc9524a581ae12d5486491e2e9
     status: true,
     model: "Mercedes-Benz sprinter 2500 cargo High Roof w/170'' WB Van 3D",
     price: 42000,
@@ -163,11 +155,7 @@ const cars = [
   },
   {
     id: 59,
-<<<<<<< HEAD
     img: "https://github.com/elmar8287/dreamcar-auto-sales/assets/49064106/a4225e9d-dcf3-4bde-899b-e887891f58f7",
-=======
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/358542391_10232040431858632_1568911840769654340_n.jpg?stp=dst-jpg_p720x720&_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=3b2858&_nc_ohc=L8SDCy0QCb4AX-H7rdl&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDfd9RhECjdZDOkKGhJLWRSUzzw1Np1xqMP2Jk_8-Te6g&oe=64D72D7C",
->>>>>>> efe10ca3eb1e73dc9524a581ae12d5486491e2e9
     status: true,
     model: "Mercedes-Benz sprinter 2500 cargo 144wb high roof",
     price: 34000,
