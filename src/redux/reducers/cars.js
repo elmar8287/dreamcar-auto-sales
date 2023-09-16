@@ -1,5 +1,19 @@
 const cars = [
   {
+    id: 71,
+    img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/378184410_10232522242263591_3035148677388603779_n.jpg?stp=dst-jpg_p720x720&_nc_cat=109&ccb=1-7&_nc_sid=870c51&_nc_ohc=5EjuppvJAMAAX9eDcd9&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfDyNqjWyae2boLUplHhm1w3HAw8aUlBsKCD-1BSWFKgzw&oe=650B822D",
+    status: true,
+    model: "Mercedes-Benz jayco melbourne sprinter",
+    price: 79995,
+    year: 2018,
+    condition: "Like New",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 74000,
+    link: "https://www.facebook.com/marketplace/item/278928181607181/?mibextid=6ojiHh",
+  },
+  {
     id: 70,
     img: "https://scontent-fra5-2.xx.fbcdn.net/v/t39.30808-6/368368220_10232355529655880_7348240297467044413_n.jpg?stp=dst-jpg_p720x720&_nc_cat=106&ccb=1-7&_nc_sid=44e04b&_nc_ohc=_lhGaEZcA1MAX8bejfR&_nc_ht=scontent-fra5-2.xx&oh=00_AfCybniPhTP6HzhlNfW9hgqf28d4fXLPW8OhPQwyQeAKTA&oe=64F620E6",
     status: true,
