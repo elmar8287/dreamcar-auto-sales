@@ -1,4 +1,18 @@
 const cars = [
+    {
+    id: 73,
+    img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/376726210_10232473502005115_4761198596733508441_n.jpg?stp=dst-jpg_p720x720&_nc_cat=107&ccb=1-7&_nc_sid=870c51&_nc_ohc=vSMAyZSmj78AX96bpKc&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfCFwcQ14nyZvh3ohdv6SabaLBNDRIDvf0VrslwuUZS-Vw&oe=650BABD3",
+    status: true,
+    model: "Mercedes-Benz sprinter 2500 cargo",
+    price: 29995,
+    year: 2021,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 135000,
+    link: "https://www.facebook.com/marketplace/item/2586289548195096/?mibextid=6ojiHh",
+  },
   {
     id: 72,
     img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/375903539_10232482457228990_3328371252816608577_n.jpg?stp=dst-jpg_p720x720&_nc_cat=101&ccb=1-7&_nc_sid=870c51&_nc_ohc=39w8OpakVOsAX_OOxpk&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfCJyKOjnO-oxpnke2o93G-WKbflJP4NsykTgeoTi-tOeg&oe=650AD396",
