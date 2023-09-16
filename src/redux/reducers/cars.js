@@ -12,6 +12,7 @@ const cars = [
     fuel: "Diesel",
     odometer: 55000,
     link: "https://www.facebook.com/marketplace/item/264611166500339/?mibextid=6ojiHh",
+  },
   {
     id: 71,
     img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/378184410_10232522242263591_3035148677388603779_n.jpg?stp=dst-jpg_p720x720&_nc_cat=109&ccb=1-7&_nc_sid=870c51&_nc_ohc=5EjuppvJAMAAX9eDcd9&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfDyNqjWyae2boLUplHhm1w3HAw8aUlBsKCD-1BSWFKgzw&oe=650B822D",
