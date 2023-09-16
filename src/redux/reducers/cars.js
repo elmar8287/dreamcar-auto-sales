@@ -1,6 +1,20 @@
 const cars = [
+      {
+    id: 75,
+    img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/369333818_10232360871429421_4326075556241817171_n.jpg?stp=dst-jpg_p720x720&_nc_cat=102&ccb=1-7&_nc_sid=870c51&_nc_ohc=ryrJLtgEBKUAX8VY_vy&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfAjpIOqH8ctyqUeNhWjtYIOerahhwMkqnY21wrKzx15Sg&oe=650C0699",
+    status: true,
+    model: "Mercedes-Benz sprinter 3500 cargo",
+    price: 27000,
+    year: 2016,
+    condition: "Excellent",
+    cylinders: 6,
+    transmission: "Automatic",
+    fuel: "Diesel",
+    odometer: 145000,
+    link: "https://www.facebook.com/marketplace/item/964105421325584/?mibextid=6ojiHh",
+  },
      {
-    id: 73,
+    id: 74,
     img: "https://scontent.fgyd9-1.fna.fbcdn.net/v/t39.30808-6/369683136_10232355517495576_2787476742858473308_n.jpg?stp=dst-jpg_p720x720&_nc_cat=108&ccb=1-7&_nc_sid=870c51&_nc_ohc=aeEKMVIobJcAX89oQ4C&_nc_ht=scontent.fgyd9-1.fna&oh=00_AfBnY4N36vpkXw0Rbxjjs7SfeiuX8pMNSXQL1gkHJHrlFQ&oe=650B317E",
     status: true,
     model: "Mercedes-Benz sprinter 2500 cargo",
@@ -11,7 +25,7 @@ const cars = [
     transmission: "Automatic",
     fuel: "Diesel",
     odometer: 119000,
-    link: "https://www.facebook.com/marketplace/item/2586289548195096/?mibextid=6ojiHh",
+    link: "https://www.facebook.com/marketplace/item/1447986099104264/?mibextid=6ojiHh",
   },
     {
     id: 73,
